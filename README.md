@@ -13,6 +13,7 @@ This project implements a **Bluetooth Low Energy (BLE) scanner** using Flutter, 
 
 ---
 
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -42,5 +43,6 @@ Before starting, ensure you have the following tools installed:
 - **FlutterBluePlus**: `flutter_blue_plus: ^1.34.5`
 - **BLoC**: `flutter_bloc: ^8.1.6`
 
-**Don Arias Agokoli**
+## 👨‍💻 Author
+- **Don Arias Agokoli**  
 [![Twitter Follow](https://img.shields.io/twitter/follow/don_gorias.svg?style=social)](https://twitter.com/don_gorias)
