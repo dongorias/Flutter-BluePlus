@@ -1,16 +1,46 @@
-# blue_plus_connect
+# Bluetooth Scanner with FlutterBluePlus
 
-A new Flutter project.
+## 🛠 Project Overview
+This project implements a **Bluetooth Low Energy (BLE) scanner** using Flutter, leveraging the [FlutterBluePlus](https://pub.dev/packages/flutter_blue_plus) plugin and state management through [BLoC](https://pub.dev/packages/flutter_bloc). The goal is to create a scalable and efficient BLE scanning application for Flutter-based mobile platforms.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📋 Features
+- **Scan for BLE devices**: Discover nearby Bluetooth Low Energy devices.
+- **Real-time Updates**: Use BLoC for reactive state management, ensuring UI updates in real-time.
+- **User-Friendly Interface**: Minimalistic and intuitive UI for listing scanned devices.
+- **Platform Support**: Fully compatible with Android and iOS.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Getting Started
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+Before starting, ensure you have the following tools installed:
+- [Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK
+- Android Studio or Xcode for platform-specific builds
+
+### Installation Steps
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/dongorias/Flutter-BluePlus.git
+   cd Flutter-BluePlus
+   ```
+2. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+3. Run the project:
+   ```bash
+   flutter run
+   ```
+
+---
+
+## 📦 Dependencies
+- **FlutterBluePlus**: `flutter_blue_plus: ^1.34.5`
+- **BLoC**: `flutter_bloc: ^8.1.6`
+
+**Don Arias Agokoli**
+[![Twitter Follow](https://img.shields.io/twitter/follow/don_gorias.svg?style=social)](https://twitter.com/don_gorias)
